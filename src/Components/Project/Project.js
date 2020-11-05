@@ -5,7 +5,7 @@ const Project = (props) => {
     return (
        
             <div class="col s6">
-                <div className="card medium">
+                <div className="card medium hoverable">
                     <div className="card-image waves-effect waves-block waves-light">
                         <img className="activator" style={imgStyle} src={props.image} alt="Project preview image"/>
                     </div>
