@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Nav from "./Components/Navbar/Navbar";
+import NoMatch from "./pages/NoMatch";
 
 
 
