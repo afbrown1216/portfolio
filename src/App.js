@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Nav from "./Components/Navbar/Navbar";
 import NoMatch from "./pages/NoMatch";
+import Footer from "./Components/Footer/Footer";
 
 
 
@@ -19,6 +20,7 @@ function App() {
          <Route exact path="/portfolio" component={Portfolio} />
          <Route  component={NoMatch} />
        </Switch>
+       <Footer />
      </div>
    </Router>
   );
