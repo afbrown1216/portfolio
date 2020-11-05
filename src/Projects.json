@@ -1,0 +1,56 @@
+[
+    {   
+        "image": "https://github.com/afbrown1216/employee-directory/raw/main/Screen%20Shot%202020-11-04%20at%202.24.29%20AM.png",
+        "name": "Employee-Directory",
+        "links":{
+            "deployedLink": "https://afbrown1216.github.io/employee-directory/",
+            "gitHubLink":"https://github.com/afbrown1216/employee-directory"
+        },
+        "description":"An app that displays the employees of Grey-Sloan Memorial Hospital through out the seasons of the fictional show Grey's Anatomy. You can search the directory for a specific employee and sort by last name. "
+    },
+    {   
+        "image":"https://user-images.githubusercontent.com/69770137/93726761-c276a900-fb85-11ea-8b19-47f9d604eacf.png",
+        "name": "Dinner Decider",
+        "links":{
+            "deployedLink":"https://afbrown1216.github.io/dinner-decider/",
+            "gitHubLink":"https://github.com/afbrown1216/dinner-decider"
+        },
+        "description": "Dinner Decider provides users with a fun, straight-forward solution to a universal problem: choosing where (or what!) to eat."
+    }, 
+    {   
+        "image":"https://github.com/afbrown1216/Budgetornot-/raw/main/budgetindex.png",
+        "name":"Budgetornot",
+        "links":{
+            "deployedLink":"https://secret-cliffs-63214.herokuapp.com/",
+            "gitHubLink":"https://github.com/afbrown1216/Budgetornot-"
+        },
+        "description":"An Budget Calculator app than can be used to track transactions overtime. This is a PWA so these functions will work offline and update the database once back online. "
+    },
+    {   
+        "image":"https://github.com/afbrown1216/workout-tracker/raw/main/dashboard.png",
+        "name": "Workout Tracker",
+        "links":{
+            "deployedLink":"https://quiet-peak-02711.herokuapp.com/",
+            "gitHubLink":"https://github.com/afbrown1216/workout-tracker"
+        },
+        "description": "An app that tracks your workouts including resitance and carido workouts. This app features express, mongodb, and mongoose."
+    },
+    {   
+        "image":"https://github.com/afbrown1216/ITravelWeather-App/raw/master/assets/preview.png",
+        "name": "ITravelWeather-App",
+        "links":{
+            "deployedLink":"https://afbrown1216.github.io/ITravelWeather-App/",
+            "gitHubLink":"https://github.com/afbrown1216/ITravelWeather-App"
+        },
+        "description":"This app is a weather dashboard search engine. Utilizing the OpenWeather API you can search cities around the world and recieve the current forecast for that city as well as a five day forecast. It stores your visited cites in history for a quick search of that city on page refresh."
+    },
+    {   
+        "image":"https://github.com/afbrown1216/theBestReadMeGenerator/raw/master/Returned%20Data.png",
+        "name":"The Best README Generator",
+        "links":{
+            "deployedLink":"n/a",
+            "gitHubLink":"https://github.com/afbrown1216/theBestReadMeGenerator"
+        },
+        "description":"This is a command line application that produces a clean professional README.md page for a GitHub project."
+    }
+]
