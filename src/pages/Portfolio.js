@@ -8,7 +8,7 @@ class Portfolio extends Component {
     }
     render() {
         return (
-            <div className=" purple lighten-4">
+            <div className=" lighten-4">
                 <h1 className="center-align"> Projects </h1>
                 <div className="row">
                     <div className="col">
