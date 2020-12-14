@@ -15,11 +15,11 @@ function App() {
      <div> 
        <Nav /> 
        <Switch> 
-         
-         <Route exact path="/" component={About} />
+        
          <Route exact path="/contact" component={Contact} />
          <Route exact path="/portfolio" component={Portfolio} />
-        
+         <Route  component={NoMatch} />
+         <Route exact path="/" component={About} />
        </Switch>
        <Footer />
      </div>
