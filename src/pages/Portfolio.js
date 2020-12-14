@@ -11,14 +11,17 @@ class Portfolio extends Component {
             <div className=" purple lighten-4">
                 <h1 className="center-align"> Projects </h1>
                 <div className="row">
-                    {this.state.projects.map(project => (
-                        <Project
-                            image={project.image} 
-                            name={project.name}
-                            links={project.links}
-                            des={project.description}
-                        />
-                    ))}
+                    <div className="col">
+                        {this.state.projects.map(project => (
+                            <Project
+                                image={project.image} 
+                                name={project.name}
+                                links={project.links}
+                                des={project.description}
+                            />
+                        ))}
+                    </div>
+                  
                 </div>
                
                 

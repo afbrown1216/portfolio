@@ -9,7 +9,7 @@ const Project = (props) => {
 
     return (
        
-            <div class="col s6">
+            <div className="col s6">
                 <div className="card medium hoverable">
                     <div className="card-image waves-effect waves-block waves-light">
                         <img className="activator" style={imgStyle} src={props.image} alt="Project preview"/>
@@ -21,7 +21,7 @@ const Project = (props) => {
                     </div>
                     <div className="card-reveal">
                         <span className="card-title grey-text text-darken-4"> {props.name} <i className="material-icons right">close</i></span>
-                        <p>An app that displays the employees of Grey-Sloan Memorial Hospital through out the seasons of the fictional show Grey's Anatomy. You can search the directory for a specific employee and sort by last name.</p>
+                        <p>{props.des}</p>
                     </div>
                 </div>
             </div>
